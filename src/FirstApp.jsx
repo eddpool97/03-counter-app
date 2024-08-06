@@ -5,6 +5,7 @@ export const FirstApp = ({ title, message }) => {
     <>
       <h1>{title}</h1>
       <p>{message}</p>
+      <p>{name}</p>
     </>
   );
 };
@@ -19,4 +20,5 @@ FirstApp.propTypes = {
 FirstApp.defaultProps = {
   title: 'No Value',
   message: 'No Value',
+  name: 'Edwin Ayala'
 };

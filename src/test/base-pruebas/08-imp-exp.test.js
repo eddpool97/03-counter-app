@@ -17,7 +17,7 @@ describe('Pruebas en import 08-imp-exp.js', () => {
   });
 
   test('getHeroByOwner retorna un arreglo de los heroes filtrados por owner - DC', () => {
-    dcHeroes = [
+    const dcHeroes = [
       { id: 1, name: 'Batman', owner: 'DC' },
       { id: 3, name: 'Superman', owner: 'DC' },
       { id: 4, name: 'Flash', owner: 'DC' },
@@ -30,7 +30,7 @@ describe('Pruebas en import 08-imp-exp.js', () => {
   });
 
   test('getHeroByOwner retorna un arreglo de los heroes filtrados por owner -MARVEL', () => {
-    marvel = [
+    const marvel = [
       { id: 2, name: 'Spiderman', owner: 'Marvel' },
       { id: 5, name: 'Wolverine', owner: 'Marvel' },
     ];
